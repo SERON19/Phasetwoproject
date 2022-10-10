@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav{
+  background-color: rgb(190, 224, 224);
+  padding: 16px;
+  position: fixed;
+}
+nav a{
+  color: rgb(255, 11, 11);
+  margin-right: 4cm;
+}
+nav a.active{
+  text-decoration: none;
+font-weight: bolder;
+}
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  display: table;
+}
+.h1{
+  text-align: center;
+}
+.prices{
+  bottom: 0; 
+  background: rgba(0, 0, 0, 0.2); 
+  width: 100%;
+  opacity:0; 
+  transition: .9s ease;
+}
+
+.container:hover .prices {
+  opacity: 1.5;
+}
+.form-control me-2{
+  padding-right: 10px;
+}
+form-control me-2{
+  width: 10px;
+}
+body{
+  
+  background-image: url('https://source.unsplash.com/1600x900/?globe');
+
+}
